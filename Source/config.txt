@@ -1,0 +1,19 @@
+[Encryption]
+FernetKey = key1.key
+CasearShift = 50
+
+[Target]
+victimIp = 192.168.1.250
+
+[Ports]
+commandPort = 500
+fileNamePort = 999
+fileDataPort = 1000
+sniffEndPort = 1005
+watchFileNamePort = 1999
+watchFileDataPort = 2000
+watchSniffEndPort = 2005
+
+[Watcher]
+dstIP = 192.168.1.253
+
